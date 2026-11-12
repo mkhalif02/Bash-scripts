@@ -1,19 +1,13 @@
 #!/bin/bash
 
+#This is a script that will prompt the user for input and display it back to them.
 
 
+read -p " What is your name? " name
 
-lenght=5
-width=6
-
-area=$((lenght * width)) 
-
-echo "The area is the size of $area"
+echo "Hello, $name! Nice to meet you."
 
 
-perimeter=$((2*(lenght+width)))
-
-echo "The perimeter is equal to $perimeter"
 
 
 
